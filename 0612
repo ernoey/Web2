@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <style>
+        .container {
+            width: 1480px;
+            height: 1250px;
+            position: relative;
+            background: #fff;
+        }
+        .text {
+            position: absolute;
+            z-index: 2; 
+        }
+        .image {
+            position: absolute;
+            z-index: 1; 
+        }
+        .title {
+            left: 96px;
+            top: 64px;
+            font-size: 45px;
+            text-align: left;
+            color: #000;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .image-1 {
+            width: 420px;
+            height: 703px;
+            left: 132px;
+            top: 223px;
+            object-fit: cover;
+        }
+        .text-block {
+            width: 576px;
+            height: 295px;
+            left: 585px;
+            top: 280px;
+            font-size: 25px;
+            text-align: left;
+            text-transform: capitalize;
+            color: #000;
+        }
+        .image-2 {
+            width: 436px;
+            height: 668px;
+            left: 764px;
+            top: 453px;
+            object-fit: cover;
+        }
+        .box {
+            width: 189px;
+            height: 84px;
+            background: #eee;
+            border-radius: 8px;
+            padding: 8px;
+            float: right;
+            margin-bottom: 16px;
+            margin-right: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box p {
+            width: 66px;
+            height: 37px;
+            font-size: 20px;
+            text-align: center;
+            color: #000;
+            margin: 0;
+        }
+        .box2 {
+            width: 189px;
+            height: 84px;
+            background: #eee;
+            border-radius: 8px;
+            padding: 8px;
+            float: left;
+            margin-left: 10px;
+            margin-bottom: 16px;
+            margin-right: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; 
+            right: -350px;
+            top: -230px;
+        }
+        .box2 p {
+            width: 66px;
+            height: 37px;
+            font-size: 20px;
+            text-align: center;
+            color: #000;
+            margin: 0;
+        }
+        .box3 {
+            width: 189px;
+            height: 84px;
+            background: #eee;
+            border-radius: 8px;
+            padding: 8px;
+            float: left;
+            margin-bottom: 16px;
+            margin-right: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; 
+            left: -260px; 
+            bottom: -8px
+        }
+        .box3 p {
+            width: 130px;
+            height: 37px;
+            font-size: 20px;
+            text-align: center;
+            color: #000;
+            margin: 0;
+        }
+        select {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            Greek Yogurt
+        </div>
+        <img
+          src="c:\Users\user\Desktop\Figma\yogurt_reference2.jpg"
+          class="image image-1"
+        />
+        <div class="text text-block">
+            그릭요거트, 그릭 요구르트<br />
+            (Greek yogurt: 그리스식 요구르트),<br />
+            요구르트 치즈 등으로 불리는<br />
+            여과 요구르트(Strained yogurt)는<br />
+            천이나 기계 등을 이용해 유청을 걸러내거나<br />
+            우유를 끓여 농축한 뒤 발효하는 식으로 제조된<br />
+            요거트로서,<br />
+            꾸덕한 식감이 특징이다.<br /><br /><br />
+        </div>
+        <img
+          src="c:\Users\user\Desktop\Figma\yogurt_reference1.jpg"
+          class="image image-2"
+        />
+    </div>
+    <select>
+        <optgroup label="바로가기">
+            <option>바로가기</option>
+            <option>
+                <a href="file:///C:/Users/user/Desktop/HTML5/01/02.html">
+                    How to eat 
+                </a>
+            </option>
+            <option>
+                <a href="file:///C:/Users/user/Desktop/HTML5/01/03.html">
+                    How to meal 
+                </a>
+            </option>
+            <option>
+                <a href="file:///C:/Users/user/Desktop/HTML5/01/04.html">
+                    digression 
+                </a>
+            </option>
+        </optgroup>
+    </select>
+    <a href="file:///C:/Users/user/Desktop/HTML5/01/02.html">
+        <div class="box">
+            <p>next</p>
+        </div>
+    </a>
+    <a href="file:///C:/Users/user/Desktop/HTML5/01/04.html">
+        <div class="box2">
+            <p>digression</p>
+    </a>
+    <a href="file:///C:/Users/user/Desktop/HTML5/01/03.html">
+        <div class="box3">
+            <p>meal</p>
+    </a>
+    
+</body>
+</html>
